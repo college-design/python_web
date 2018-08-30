@@ -7,7 +7,6 @@
     @Author: xuegangliu
     @Description: app.py
 """
-__author__ = 'xuegangliu'
 
 '''
 async web application.
