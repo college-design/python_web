@@ -105,5 +105,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# idea
+
 .idea/
-python_web.iml
+*.iml
+
