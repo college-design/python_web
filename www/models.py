@@ -16,6 +16,7 @@ def next_id():
     return '%015d%s000' % (int(time.time() * 1000), uuid.uuid4().hex)
 
 class User(Model):
+    '''数据表users'''
     __table__ = 'users'
 
     id = StringField(primary_key=True, default=next_id, ddl='varchar(50)')
@@ -27,6 +28,7 @@ class User(Model):
     created_at = FloatField(default=time.time)
 
 class Blog(Model):
+    '''数据表blogs'''
     __table__ = 'blogs'
 
     id = StringField(primary_key=True, default=next_id, ddl='varchar(50)')
@@ -39,6 +41,7 @@ class Blog(Model):
     created_at = FloatField(default=time.time)
 
 class Comment(Model):
+    '''数据表comments'''
     __table__ = 'comments'
 
     id = StringField(primary_key=True, default=next_id, ddl='varchar(50)')
