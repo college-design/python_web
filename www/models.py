@@ -1,12 +1,11 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-"""
-    @Project: python_web
-    @Date: 8/30/2018 11:01 PM
-    @Author: xuegangliu
-    @Description: models
-"""
+'''
+Models for user, blog, comment.
+'''
+
+__author__ = 'Michael Liao'
 
 import time, uuid
 

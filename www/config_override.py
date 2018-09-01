@@ -1,16 +1,14 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-"""
-    @Project: python_web
-    @Date: 8/30/2018 11:56 PM
-    @Author: xuegangliu
-    @Description: config_override
-"""
+'''
+Override configurations.
+'''
 
+__author__ = 'Michael Liao'
 
 configs = {
     'db': {
-        'host': '127.0.0.1'
+        'host': '140.143.250.99'
     }
 }
