@@ -5,7 +5,7 @@
     @Project: python_web
     @Date: 8/30/2018 10:40 PM
     @Author: xuegangliu
-    @Description: app.py
+    @Description: webApp骨架
 """
 
 '''
