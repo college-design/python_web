@@ -16,6 +16,7 @@ def log(sql, args=()):
     logging.info('SQL: %s' % sql)
 
 async def create_pool(loop, **kw):
+    '''创建连接池'''
     logging.info('create database connection pool...')
     global __pool
     __pool = await aiomysql.create_pool(
@@ -32,6 +33,7 @@ async def create_pool(loop, **kw):
     )
 
 async def select(sql, args, size=None):
+    '''查询'''
     log(sql, args)
     global __pool
     async with __pool.get() as conn:
